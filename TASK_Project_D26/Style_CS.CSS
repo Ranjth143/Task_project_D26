@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+#scoreboard div {
+    text-align: center;
+}
+
+#scoreboard img {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
